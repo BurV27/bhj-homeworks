@@ -8,8 +8,7 @@ for (let i = 0; i < holeElem.length; i++){
   giveHoleElem.onclick = () => {
     if(giveHoleElem.className.includes("hole_has-mole")){
     clickDead.textContent = `${+clickDead.textContent + 1}`;
-  };
-  if(!giveHoleElem.className.includes("hole_has-mole")){
+  } else {
     clickLost.textContent = `${+clickLost.textContent + 1}`
   }
   if (+clickDead.textContent === 10){
