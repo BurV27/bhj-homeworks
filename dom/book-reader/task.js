@@ -37,7 +37,6 @@ function bookAddStandart(){
 }
 
 for (const elem of bookSize){
-  debugger
   elem.addEventListener('click', () => {
 
     if (!(elem.classList.contains("font-size_active"))){
