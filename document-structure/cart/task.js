@@ -12,9 +12,7 @@ function addToCart(id, valueCount) {
   const item = cart.querySelector(`[data-id="${id}"]`);
 
   if (item) {
-     count.textContent =
-          Number.parseInt(count.textContent) +
-          Number.parseInt(valueCount);
+    item.lastElementChild.textContent += valueCount;
     return;
   }
 

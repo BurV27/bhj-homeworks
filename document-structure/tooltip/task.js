@@ -17,5 +17,5 @@ for (let i = 0; i < tooltip.length; i++){
 
         createElem(tooltip[i].title, i);
     })
-
+    
 }
