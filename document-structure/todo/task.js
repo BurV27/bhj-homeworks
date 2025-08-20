@@ -27,5 +27,8 @@ function addToDo(text) {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    addToDo(input.value)
+    if(input.value.trim() !== ""){
+        addToDo(input.value)
+    }
+    form.reset()
 })
