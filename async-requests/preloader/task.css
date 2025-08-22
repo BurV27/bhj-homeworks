@@ -6,11 +6,17 @@ body {
 }
 
 .item__code {
+  display: inline;
   margin-right: 5px;
   font-weight: bold;
 }
 .item__value {
+    display: inline;
   margin-right: 5px;
+}
+
+.item__currency {
+    display: inline;
 }
 
 .loader {
